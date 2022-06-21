@@ -1,0 +1,24 @@
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: handwritten;
+    border-radius: 10px;
+    border: none;
+    margin-top:20px;
+    cursor: pointer;
+}
+b {
+    font-size:30px;
+    margin: 20px 0 10px 0;
+}
+.coupon_box {
+    margin-top: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 14px;
+    margin-top:8px;
+}

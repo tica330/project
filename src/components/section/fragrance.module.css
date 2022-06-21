@@ -1,0 +1,47 @@
+.event {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background-image: url(../../asset/images/event_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.event h2 {
+    font-family: handwritten;
+    width: 100%;
+    height: 100vh;
+    top: 200px;
+    position: absolute;
+    font-size: 80px;
+}
+.event>p {
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    top: 330px;
+}
+.btbox {
+    width: 100%;
+    height: 60px;
+    top: 420px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+.button .button_txt {
+    font-family: handwritten;
+    font-size: 18px;
+    color: #fff;
+}

@@ -1,0 +1,112 @@
+.infoul {
+    margin: 0 auto;
+    position: absolute;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+
+/* left */
+.info_left {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.info_contect li {
+    margin-top: 3px;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    margin-right: 40px;
+}
+.info_contect li:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.info_contect li:nth-child(2) {
+    margin-top: 25px;
+}
+.info_icon {
+    margin-right: 30px;
+}
+.info_icon li {
+    float: right;
+    margin-top: 30px;
+}
+
+
+/* right */
+.info_right {
+    width: 60%;
+    float: left;
+    padding-left: 40px;
+    border-left: 1px solid #fff;
+}
+.info_mn ul {
+    width: 50%;
+}
+.info_mn li {
+    float: left;
+    width: 80px;
+}
+.info_mn li:nth-child(1){
+    margin-left: 0;
+}
+.info_mn li:nth-child(3){
+    width: 135px;
+}
+.info_mn li:nth-child(4){
+    width: 135px;
+}
+.info_mn li a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.info_email {
+    margin: 50px 0 100px 0;
+}
+.info_email input{
+    width: 350px;
+    height: 15px;
+    padding: 12px 0 15px 12px;
+    font-size: 14px;
+    border: 0;
+    line-height: 14px;
+    vertical-align: middle;
+    float: left;
+}
+.info_email a + input {
+    display: inline-block;
+    margin-left: -4px;
+}
+.info_email .newsbtn {
+    width: 100px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.info_add {
+    margin-top: 120px;
+}
+.info_add li {
+    font-size: 15px;
+    clear: both;
+    color: #fff;
+}
+.info_add li:nth-child(3) {
+    margin-top: 10px;
+    font-size: 14px;
+}
