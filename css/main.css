@@ -79,13 +79,6 @@ a {
     background-color: #fff;
 }
 .site li:nth-child(2) {
-    left: 100%;
-    background-image: url(../images/2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.site li:nth-child(3) {
     color: #fff;
     left: 200%;
     background-image: url(../images/3.jpg);
@@ -93,7 +86,7 @@ a {
     background-position: center;
     background-size: cover;
 }
-.site li:nth-child(4) {
+.site li:nth-child(3) {
     left: 300%;
     color: #fff;
     background-image: url(../images/4.jpg);
@@ -124,7 +117,7 @@ a {
 
 .pg_button{
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 50px;
     bottom: 0;
     right:0;
