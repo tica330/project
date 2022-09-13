@@ -25,7 +25,7 @@ $(document).ready(function(){
     function timer(){
        setIntervalId = setInterval(function(){
           var i = current + 1;
-          if(i >= 4 ){
+          if(i >= 3 ){
               i = 0;
           }
           move(i);
