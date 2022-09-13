@@ -178,17 +178,56 @@ a {
 
 /* ability */
 .ability {
-    width: 30%;
+    width: 40%;
     height: 30vh;
     overflow: hidden;
     box-sizing: border-box;
     float: left;
     overflow: hidden;
     padding: 35px;
+    position: relative;
 }
-.ability ul li {
+.ab_txt {
+    width: 70px;
+    position: absolute;
+    left: 40px;
+}
+.ab_txt li {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+}
+.ab_bar {
+    position: relative;
+    left: 100px;
+}
+.ab_bar li {
+    width: 150px;
+    height: 15px;
+    margin-bottom: 9px;
+    border: 1px solid #000;
+}
+.ab_bar li ul {
+    height: 15px;
+    box-sizing: border-box;
+    background: #000;
+}
+.ab_html {
+    width: 130px;
+}
+.ab_css {
+    width: 120px;
+}
+.ab_java {
+    width: 100px;
+}
+.ab_react {
+    width: 110px;
+}
+.ab_ps {
+    width: 130px;
+}
+.ab_ai {
+    width: 110px;
 }
 
 
