@@ -94,6 +94,13 @@ a {
     background-position: center;
     background-size: cover;
 }
+.site li:nth-child(4) {
+    left: 100%;
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 .title {
@@ -117,7 +124,7 @@ a {
 
 .pg_button{
     position: absolute;
-    width: 150px;
+    width: 200px;
     height: 50px;
     bottom: 0;
     right:0;
